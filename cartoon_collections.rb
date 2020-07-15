@@ -12,5 +12,5 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(cheese_types)
- cheese_types.detect { |cheese| cheese_types}
+ cheese_types.detect { |cheese| cheese == "#{cheese_types}"}
 end
